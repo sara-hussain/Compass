@@ -1,2 +1,4 @@
-compass
+Compass
 =======
+
+Compass Project
