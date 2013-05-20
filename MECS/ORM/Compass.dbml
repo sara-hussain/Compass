@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="COMPASS" Class="CompassDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=URB-DC\URBSQLSERVER;Initial Catalog=COMPASS;User ID=URBWebAppUser" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="COMPASSConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Choices" Member="Choices">
+    <Type Name="Choice">
+      <Column Name="CategoryID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="QuestionID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ChoiceID" Type="System.Byte" DbType="TinyInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ChoiceText" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="ChoiceSerial" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="RefValue" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Question_Choice" Member="Question" ThisKey="CategoryID,QuestionID" OtherKey="CategoryID,QuestionID" Type="Question" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Questions" Member="Questions">
+    <Type Name="Question">
+      <Column Name="CategoryID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="QuestionID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="QuestionText" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="QuestionSerial" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Association Name="Question_Choice" Member="Choices" ThisKey="CategoryID,QuestionID" OtherKey="CategoryID,QuestionID" Type="Choice" />
+      <Association Name="Category_Question" Member="Category" ThisKey="CategoryID" OtherKey="CategoryID" Type="Category" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Categories" Member="Categories">
+    <Type Name="Category">
+      <Column Name="CategoryID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="Category_Question" Member="Questions" ThisKey="CategoryID" OtherKey="CategoryID" Type="Question" />
+    </Type>
+  </Table>
+  <Table Name="dbo.AddressList" Member="AddressLists">
+    <Type Name="AddressList">
+      <Column Name="AddressSerial" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="[Contracted Name]" Member="Contracted_Name" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="[Contracted Address]" Member="Contracted_Address" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="City" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="[State Abbreviation]" Member="State_Abbreviation" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="ZIP" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="[ZIP-Plus 4]" Member="ZIP_Plus_4" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="[Carrier Route]" Member="Carrier_Route" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="[Delivery Point Code]" Member="Delivery_Point_Code" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="[Ethnic Groups]" Member="Ethnic_Groups" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="[Household Age]" Member="Household_Age" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="[Geo Tract]" Member="Geo_Tract" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,156 @@
+﻿img, object, embed, video {
+	max-width: 100%;
+}
+body 
+{
+    background-color:#F7F6EE;
+	font-family:Verdana, Geneva, sans-serif,"Proxima Nova Rg" ;
+	font-size:0.75em;
+	margin-left:auto;
+	margin-right:auto;
+	padding:10px;
+	text-align:justify;
+	line-height:1.5em;
+	
+}
+
+/*Header*/
+.title-h1	{ color: #7E0001;
+         	  font-size:100%;
+         	  font-family:Helvetica, sans-serif, "Proxima Nova Lt"; 
+         	  letter-spacing:.5px;
+         	 line-height:1em;
+         	}
+
+.title-h2	{color: #7E0001; 
+         	 font-size:90%; 
+         	 font-family:Helvetica, sans-serif, "Proxima Nova Lt";
+         	 letter-spacing:.05px;
+         	 
+         	 line-height:1.5em;
+         	 }
+
+
+/*Page Layout */
+/*Left content  */
+.left-content{ height:auto; 
+               width:66%; 
+               float:left;
+                
+               }
+
+.right-content 
+{               
+                
+                height:auto;
+                width:29%; 
+                float:left;
+                margin-left:10px;
+                }
+  
+  
+  
+  @media only screen and (min-width: 481px)
+  {
+      .left-content{ height:auto; 
+               width:66%; 
+               float:left;
+                
+               }
+
+.right-content{ height:auto;
+                width:29%; 
+                float:left;
+                margin-left:10px;
+                }
+.title-h1	{ 
+         	  font-size:150%;
+         	  font-family:Helvetica, sans-serif, "Proxima Nova Lt"; 
+         	  letter-spacing:1px;
+         	  line-height:1em;
+         	}
+
+.title-h2	{color: #7E0001; 
+         	 font-size:125%; 
+         	 font-family:Helvetica, sans-serif, "Proxima Nova Lt";
+         	 line-height:1.5em;
+         	 }
+
+      
+   }              
+                
+@media only screen and (min-width: 769px) 
+{
+    .left-content{ height:auto; 
+               width:66%; 
+               float:left;
+                
+               }
+
+.right-content{ height:auto;
+                width:29%; 
+                float:left;
+                margin-left:10px;
+                
+                }
+
+
+.title-h1	{ 
+         	  font-size:150%;
+         	  font-family:Helvetica, sans-serif, "Proxima Nova Lt"; 
+         	  letter-spacing:1px;
+         	  line-height:1em;
+         	}
+
+.title-h2	{color: #7E0001; 
+         	 font-size:125%; 
+         	 font-family:Helvetica, sans-serif, "Proxima Nova Lt";
+         	 line-height:.5em;
+         	 }
+    
+}
+
+/*
+
+
+
+    [if {!} browser]
+    [if {!} browser version]
+    [if {!} condition browser version]
+
+where:
+
+    ! - indicates negation of the statement (i.e. NOT) - optional
+    browser - states which browser the statement targets
+        'IE' - Internet Explorer
+        'Gecko' - Gecko based browsers (Firefox, Camino etc)
+        'Webkit' - Webkit based browsers (Safari, Shiira etc)
+        'Opera' - Opera's browser
+        'IEMac' - Internet Explorer for the Mac
+        'Konq' - Konqueror
+        'IEmob' - IE mobile
+        'PSP' - Playstation Portable
+        'NetF' - Net Front
+    version - which version of the browser in question should be considered
+    condition - arithmetic operator
+        lt - Less than
+        lte - Less than or equal to
+        eq - Equal to
+        gte - Greater than or equal to
+        gt - Greater then
+
+
+	
+// Conditional-CSS syntax examples
+[if IE] - Used if the browser is IE
+[if ! Opera] - Used if the browser is not Opera
+[if IE 5] - Used if browser is IE 5
+[if lte IE 6] - Used if the browser is IE 6 or less (IE 5, IE 4 etc)
+[if ! gt IE 6] - Same effect as the previous statement, if not greater than IE 6
+    // Conditional-CSS box example  
+    div.box {  
+        width: 400px;  
+        [if IE 5] width: 600px;  
+        padding: 0 100px;  
+    }  
+*/

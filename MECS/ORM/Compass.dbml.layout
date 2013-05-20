@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Compass">
+  <DataContextMoniker Name="/CompassDataContext" />
+  <nestedChildShapes>
+    <classShape Id="eb71f03e-ef09-4d80-a518-be6ecae85fde" absoluteBounds="6.25, 0.875, 2, 1.9631982421874998">
+      <DataClassMoniker Name="/CompassDataContext/Choice" />
+      <nestedChildShapes>
+        <elementListCompartment Id="83effbe3-afe6-4fad-8bab-9f087214fc17" absoluteBounds="6.265, 1.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="20da69a8-d419-442b-b981-8982f68f55eb" absoluteBounds="3.5, 1.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/CompassDataContext/Question" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f372b451-10df-4a25-ae28-6db6a6dcc75e" absoluteBounds="3.515, 1.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 1.91429768880208); (6.25 : 1.91429768880208)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/CompassDataContext/Question/Question_Choice" />
+      <nodes>
+        <classShapeMoniker Id="20da69a8-d419-442b-b981-8982f68f55eb" />
+        <classShapeMoniker Id="eb71f03e-ef09-4d80-a518-be6ecae85fde" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="6245d20f-de72-4845-b1ed-14e80ddd737e" absoluteBounds="1.125, 1.25, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/CompassDataContext/Category" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d5b76221-ee63-4ac6-999e-4f513ba3c1f0" absoluteBounds="1.1400000000000001, 1.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.125 : 1.84699625651042); (3.5 : 1.84699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CompassDataContext/Category/Category_Question" />
+      <nodes>
+        <classShapeMoniker Id="6245d20f-de72-4845-b1ed-14e80ddd737e" />
+        <classShapeMoniker Id="20da69a8-d419-442b-b981-8982f68f55eb" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="39c41b2d-1007-4b76-9ffd-8c3d3a62da13" absoluteBounds="2, 4.625, 2, 3.1170068359375">
+      <DataClassMoniker Name="/CompassDataContext/AddressList" />
+      <nestedChildShapes>
+        <elementListCompartment Id="251419eb-8586-4739-b908-31fb128667dc" absoluteBounds="2.015, 5.085, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

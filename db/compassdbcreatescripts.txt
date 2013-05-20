@@ -1,0 +1,43 @@
+USE [Compass]
+GO
+
+/****** Object:  Table [dbo].[tbl_censusblock]    Script Date: 5/15/2013 5:55:16 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[tbl_censusblock](
+	[PK_tbl_censusblockid] [int] NOT NULL,
+	[censusblock] [int] NOT NULL,
+	[censustract] [int] NULL,
+	[entered_date] [date] NOT NULL,
+	[last_modified_date] [date] NOT NULL
+) ON [PRIMARY]
+
+GO
+
+USE [Compass]
+GO
+
+/****** Object:  Table [dbo].[tbl_interviewer]    Script Date: 5/15/2013 5:56:45 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[tbl_interviewer](
+	[PK_tbl_ interviewerid] [int] NOT NULL,
+	[first_name] [nchar](28) NOT NULL,
+	[last_name] [nchar](28) NOT NULL,
+	[institution] [nchar](128) NULL,
+	[city] [nchar](28) NOT NULL,
+	[entered_date] [date] NOT NULL,
+	[last_modified_date] [date] NOT NULL
+) ON [PRIMARY]
+
+GO
+
+
