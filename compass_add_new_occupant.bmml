@@ -1,0 +1,143 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1068" measuredH="914" mockupW="727" mockupH="914">
+  <controls>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="341" y="0" w="727" h="914" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13576743</color>
+        <text>Add%20New%20Occupant%0Ahttp%3A//compass.uchicago.edu/address/newoccupant/3925</text>
+        <value>4</value>
+        <verticalScrollbar>true</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::HRule" x="368" y="180" w="700" h="-1" measuredW="100" measuredH="10" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Button" x="522" y="788" w="78" h="27" measuredW="52" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Save</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Button" x="645" y="788" w="65" h="26" measuredW="64" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <text>Cancel</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Button" x="751" y="788" w="60" h="27" measuredW="51" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <text>Back</text>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="__group__" x="422" y="155" w="259" h="27" measuredW="259" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Button" x="0" y="0" w="-1" h="-1" measuredW="71" measuredH="27" zOrder="0" locked="false" isInGroup="22">
+          <controlProperties>
+            <text>Address</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Button" x="68" y="0" w="-1" h="-1" measuredW="90" measuredH="27" zOrder="1" locked="false" isInGroup="22">
+          <controlProperties>
+            <text>Interviewer</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Button" x="154" y="0" w="-1" h="-1" measuredW="105" measuredH="27" zOrder="2" locked="false" isInGroup="22">
+          <controlProperties>
+            <text>Questionnaire</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::Image" x="507" y="84" w="320" h="56" measuredW="77" measuredH="79" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Compass%20Logo</text>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::Label" x="421" y="221" w="186" h="-1" measuredW="162" measuredH="26" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Add%20New%20Occupant%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::Label" x="421" y="267" w="-1" h="-1" measuredW="38" measuredH="21" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Name%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::TextInput" x="553" y="264" w="192" h="-1" measuredW="79" measuredH="26" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="101" controlTypeID="__group__" x="551" y="303" w="200" h="122" measuredW="200" measuredH="122" zOrder="10" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::FieldSet" x="0" y="0" w="200" h="122" measuredW="200" measuredH="170" zOrder="0" locked="false" isInGroup="101">
+          <controlProperties>
+            <text>Eligibility%3A</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::CheckBox" x="15" y="25" w="-1" h="-1" measuredW="76" measuredH="22" zOrder="1" locked="false" isInGroup="101">
+          <controlProperties>
+            <text>Over%2035%3F</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::CheckBox" x="15" y="50" w="-1" h="-1" measuredW="119" measuredH="22" zOrder="2" locked="false" isInGroup="101">
+          <controlProperties>
+            <text>Speaks%20English%3F</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::CheckBox" x="15" y="79" w="-1" h="-1" measuredW="141" measuredH="22" zOrder="3" locked="false" isInGroup="101">
+          <controlProperties>
+            <text>Citizen%20or%20Resident%3F</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="102" controlTypeID="__group__" x="549" y="534" w="200" h="171" measuredW="200" measuredH="171" zOrder="11" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::FieldSet" x="0" y="0" w="200" h="171" measuredW="200" measuredH="170" zOrder="0" locked="false" isInGroup="102">
+          <controlProperties>
+            <text>Reasons%20for%20Refusal%3A</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::CheckBox" x="15" y="20" w="-1" h="-1" measuredW="52" measuredH="22" zOrder="1" locked="false" isInGroup="102">
+          <controlProperties>
+            <text>Blood</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::CheckBox" x="15" y="49" w="-1" h="-1" measuredW="70" measuredH="22" zOrder="2" locked="false" isInGroup="102">
+          <controlProperties>
+            <text>Consent</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::CheckBox" x="15" y="78" w="-1" h="-1" measuredW="49" measuredH="22" zOrder="3" locked="false" isInGroup="102">
+          <controlProperties>
+            <text>Time</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::CheckBox" x="15" y="109" w="-1" h="-1" measuredW="59" measuredH="22" zOrder="4" locked="false" isInGroup="102">
+          <controlProperties>
+            <text>Money</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::CheckBox" x="15" y="135" w="-1" h="-1" measuredW="54" measuredH="22" zOrder="5" locked="false" isInGroup="102">
+          <controlProperties>
+            <text>Other</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="103" controlTypeID="com.balsamiq.mockups::Label" x="424" y="503" w="-1" h="-1" measuredW="319" measuredH="21" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>If%20not%20willing%2C%20reasons%20for%20refusal%20%28check%20all%20that%20apply%29%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="106" controlTypeID="com.balsamiq.mockups::CheckBox" x="553" y="460" w="-1" h="-1" measuredW="149" measuredH="22" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Willing%20to%20participate%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="107" controlTypeID="com.balsamiq.mockups::CheckBox" x="549" y="742" w="-1" h="-1" measuredW="152" measuredH="22" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Eligible%20but%20unavailable</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
